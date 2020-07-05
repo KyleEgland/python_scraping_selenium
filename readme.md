@@ -9,19 +9,19 @@ This project was written using Python 3 (3.8.2 specifically). Ensure that Python
 
 __Clone the repository and install dependencies__
 
-`user@machine:~/Workspace$ git clone https://github.com/`
+`user@machine:~/Workspace$ git clone https://github.com/KyleEgland/python_scraping_selenium.git`
 
-`user@machine:~/Workspace$ cd scraping_with_selenium/`
+`user@machine:~/Workspace$ cd python_scraping_selenium/`
 
 _Note: This project was developed using the `virtualenv` Python module. Should you use a different virtual environment setup, please substitute the appropriate command_
 
-`user@machine:~/Workspace/scraping_with_selenium$ python -m virtualenv env`
+`user@machine:~/Workspace/python_scraping_selenium$ python -m virtualenv env`
 
-`user@machine:~/Workspace/scraping_with_selenium$ source ./env/bin/activate`
+`user@machine:~/Workspace/python_scraping_selenium$ source ./env/bin/activate`
 
 _Note: to activate on Windows use the command `. .\env\Scripts\activate` in PS or `\env\Scripts\activate` in the cmd prompt_
 
-`(env) user@machine:~/Workspace/scraping_with_selenium$ python -m pip install -r requirements.txt`
+`(env) user@machine:~/Workspace/python_scraping_selenium$ python -m pip install -r requirements.txt`
 
 __Get Browser Driver(s)__
 
@@ -29,7 +29,7 @@ Use the links in the Drivers section to obtain
 
 __Running the Examples__
 
-`(env) user@machine:~/Workspace/scraping_with_selenium$ python `
+`(env) user@machine:~/Workspace/python_scraping_selenium$ python `
 
 ## Drivers
 Use the links below to get the appropriate browser driver:
